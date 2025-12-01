@@ -1,2 +1,3 @@
 # Spectral-Decomposition-Methods-for-Image-Compression
-Project Codes
+
+To address the critical storage demands of the digital era, this thesis investigates Singular Value Decomposition (SVD) as a perfect linear tool for image compression. Bridging theoretical linear algebra with practical computation, the study rigorously benchmarks the Power Method, QR Algorithm, and Krylov subspace methods (Arnoldi and Lanczos). A MATLAB custom-based SVD Algorithm is developed to perform dimensionality reduction on both grayscale and full-color images. Comprehensive error analysis validates that isolating dominant top $k$ singular values achieves significant data compression with minimal visual loss, effectively demonstrating the power of spectral methods in real-world data science applications.
