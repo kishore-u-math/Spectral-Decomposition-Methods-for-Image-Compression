@@ -5,7 +5,7 @@ clc; clear all;
 %% ========================================================================
 
 % --- Step 1: Read color image ---
-A = imread('Admin_Building.png');  %Admin_Building.png  %sbs_main.jpeg  %sbs.jpg 
+A = imread('Admin_Building.png');  %Admin_Building.png  %sbs_main.jpeg
 
 % --- Extract and convert RGB channels to double precision ---
 R = double(A(:,:,1));
@@ -263,3 +263,4 @@ function str = format_number(num)
     if k>3, rem=mod(k,3); if rem==0, rem=3; end; str=[str(1:rem),sprintf(',%s',reshape(str(rem+1:end),3,[])')]; end
 
 end
+
